@@ -12,9 +12,12 @@ public class mathradom
 			    String name = userInput.nextLine();
 			    System.out.println("Hello, " + name + "!");
 			    Scanner userInput2 = new Scanner(System.in);
-			    System.out.println("How many questions do you want to practise, " + name + "?" );
+			    System.out.println("How many questions would you like to practise, " + name + "?" );
 			    numberOfQuestions = userInput2.nextInt();
 
 			}
 
+		public static void q1(){
+			System.out.println("Given int randomNumber = (int)(Math.random( ) * " + num1 + ") + " + num2 +";");
+		}
 	}
