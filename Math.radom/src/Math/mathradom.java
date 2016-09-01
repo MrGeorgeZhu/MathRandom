@@ -60,7 +60,7 @@ public class mathradom
 		public static void q2(){
 			random();
 			System.out.println("Given range " + num1 + " and " + num2 +" , the code to generate number within this range would be\" int randomNumber = (int)(Math.random( ) * X) + Y; \"");
-			x = num2 - 1 - num1;
+			x = num2 + 1 - num1;
 			y = num1;
 			feedBack();
 		}
@@ -79,7 +79,7 @@ public class mathradom
 			}
 		}
 		public static void  random(){
-	         num1 = (int)(Math.random()*10)+1;
-	         num2 = (int)(Math.random()*10)+1;
+	         num1 = (int)(Math.random()*6)+1;
+	         num2 = (int)(Math.random()*15)+7;
 	    }
 	}
